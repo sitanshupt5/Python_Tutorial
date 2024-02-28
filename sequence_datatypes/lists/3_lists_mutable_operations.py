@@ -43,7 +43,7 @@ grocery_list.insert(3, "wheat")
 print(grocery_list)
 
 # pop(i) function: removes and returns element from sequence. Default removed last index.
-grocery_list.pop(3) # value at index 3 is removed.
+grocery_list.pop(3)  # value at index 3 is removed.
 print(grocery_list)
 grocery_list.pop()  # value at last index is removed.
 print(grocery_list)

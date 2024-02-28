@@ -9,10 +9,10 @@ print('Hello World!!!")
 SyntaxError: unterminated string literal (detected at line 9)
 """
 # print function can accept multiple types of arguments.
-print(1+2)          # The output of this line will be the sum of 1 and 2, i.e. 3
-print(7*6)          # The output of this line will be the product of 7 and 6, i.e. 42
-print()             # In this case a blank line will be printed in the output.
-print("The end")    # This line depicts the example where strings can be printed with double quotes.
+print(1 + 2)  # The output of this line will be the sum of 1 and 2, i.e. 3
+print(7 * 6)  # The output of this line will be the product of 7 and 6, i.e. 42
+print()  # In this case a blank line will be printed in the output.
+print("The end")  # This line depicts the example where strings can be printed with double quotes.
 
 # Following example show how to print different data together using a single print function occurence.
 print("Stay tuned", 'to learn more about Python', 3)
@@ -32,3 +32,9 @@ output will be written immediately.
 Note: The * before objects indicates that the function accepts a variable number of 
 positional arguments, allowing you to pass any number of arguments separated by commas.
 """
+name = "Sitanshu"
+age = 32
+
+print(name, age, "Python", 2024)
+print(name, age, "Python", 2024, sep=", ")
+print(name, age, "Python", 2024, sep=", ", end="\t")

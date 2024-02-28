@@ -5,7 +5,8 @@ print("Python's strings are easy to use")
 print('We can even include "double quotes" within single quotes.')
 # we can even concatenate strings using the '+' operator.
 print("Hello" + " World!!!")
-# We can store the strings in variables. Variable declarations in python do not require data type.
+# We can store the strings in variables. Variable declarations in python do not require data
+#   type.
 greetings = "Hello"
 # We can also use the input() function if we want to enter the name at runtime.
 name = input("Please enter your name.")
@@ -17,16 +18,17 @@ print(splitString)
 tabbedString = "1\t2\t3\t4\t5"
 print(tabbedString)
 
-# If we are required to use double quotes within string delimited by the same
-# or single quotes within a string delimited by the single quotes then we need to use the escape character.
+# If we are required to use double quotes within string delimited by the same or single
+# quotes within a string delimited by the single quotes then we need to use the escape
+#   character.
 
 print('The pet shop owner said "No, no, \'e\'s uh, ... he\'s resting".')
 print("The pet shop owner said \"No, no, 'e's uh, ... he's resting\".")
-# For the code in line 23 the String is delimited with single quotes. Hence, single quotes need to be escaped.
-# Similarly, in line 24 the same has been done for double quotes.
-# Python provides the feature of delimiting strings with 3 double quotes.
-# The advantage of this feature is strings delimited by double quotes do not require escape characters.
-# For example if we print the same string as above by delimiting with triple quotes:
+# For the code in line 23 the String is delimited with single quotes. Hence, single quotes
+#   need to be escaped. Similarly, in line 24 the same has been done for double quotes. Python
+#   provides the feature of delimiting strings with 3 double quotes. The advantage of this
+#   feature is strings delimited by double quotes do not require escape characters. For
+#   example if we print the same string as above by delimiting with triple quotes:
 print("""The pet shop owner said "No, no, 'e's uh, ... he's resting".""")
 
 # Also we do not need to use '\n' for line breaks when using triple quotes.

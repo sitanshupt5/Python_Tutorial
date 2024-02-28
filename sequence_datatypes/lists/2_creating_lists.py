@@ -1,6 +1,6 @@
 """
 Lists in python can be created using many different ways. For example they can be newly
-created or they can be derived from existing lists. Refer below for all the different ways
+created, or they can be derived from existing lists. Refer below for all the different ways
 in which new lists can be created:
 """
 # Standard method:
