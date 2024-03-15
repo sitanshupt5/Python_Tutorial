@@ -1,0 +1,63 @@
+Up till now the kind of programming we have been performing through our code is called
+imperative programming. Imperative programming is a programming paradigm that focuses on
+describing a sequence of steps for the computer to execute. If we can recall that is exactly
+what we have been doing. Sequentially executing our code in a file.
+
+Now, we need to understand what is a paradigm and what is a programming paradigm.
+A paradigm is a fundamental way of thinking or approaching a particular subject or problem.
+It represents a set of principles, practices, and conventions that guide how individuals
+perceive and address challenges within a specific field or context.
+Programming paradigm refers to a style or approach to programming that provides a framework for
+structuring code, solving problems, and expressing algorithms.
+
+There are many different types of programming paradigm that are followed in modern day
+programming languages, imperative being one of them. The other programming paradigms are:
+procedural programming, object oriented programming, functional programming etc. In the current
+section we are doing to discuss Object Oriented Programming.
+
+Object Oriented Programming paradigm was developed in order to overcome the shortcomings of
+procedural programming(in languages like C). Hence, newer programming languages such as C++ and
+Java came into being. Programming language supports object oriented programming paradigm if it
+implements the following concepts:
+
+1.	Class: A class is a blueprint for creating objects (instances). It defines the properties
+	(attributes) and behaviors (methods) that all objects of that type will have. In simple
+	words class represents a grouping/category of entities that share common attributes and
+	behaviors.
+
+2.	Object: An object is a real world instance of a class. Example. Class 'cats' can be a
+	group/category/family of animals. 'Tigers', 'lions', 'cheetahs', 'common domestic cats' all
+	fit into the category of cats. They share same features, same behaviors etc. Hence, each of
+	them serves as an individual object of that class.
+
+3.	Encapsulation: Encapsulation is the bundling of data (attributes) and methods (behavior)
+	that operate on the data into a single unit (class). Example, imagine cars is a class.
+	"Chevrolet Camaro" is an object of that class. Now this object is supposed to have
+	attributes like make, model, color, speed etc. and behaviors such as acceleration, braking
+	etc.. The values of these attributes for this object might be different from the other
+	objects of the same class, but all the other objects of this class are going to have these
+	attributes nonetheless. Hence, the object serves as a bundle wrapping up attributes(data)
+	and behaviors ( methods) into a single unit.
+
+4.	Inheritance: Inheritance is the mechanism by which one class (subclass or derived class)
+ 	can inherit properties and behaviors from another class (superclass or base class). It
+ 	promotes code reuse and allows the creation of hierarchical relationships between classes.
+ 	A Real world example of inheritance is the inheritance of features and behaviors from
+ 	parents to children.
+
+5.	Polymorphism: poly means 'many' and morph means 'form. Polymorphism basically means many
+	forms. This feature enables methods to behave differently based on the objects they are
+	invoked on. Example people can behave differently in different circumstances or different
+	circumstances require different approach. The circumstances represent the parameters.
+	Methods can behave differently in response to different types of parameters.
+
+6.	Abstraction: Inheritance is the mechanism by which one class (subclass or derived class)
+	can inherit properties and behaviors from another class (superclass or base class). It
+	promotes code reuse and allows the creation of hierarchical relationships between classes.
+	As example we can think of a shopping website that allows us to add items to the cart and
+	place orders for those items. The code and the mechanisms running the website are not be
+	concerned with.
+
+Python as a programming language implements both imperative programming and object oriented
+programming. We have been doing imperative programming in python up till now. Lets delve into
+how the object oriented programming concepts are implemented in python one by one.
