@@ -1,0 +1,8 @@
+A DataFrame is a two-dimensional labeled data structure in Pandas, essentially a table with
+rows and columns. It is similar to a spreadsheet or SQL table. Columns in a DataFrame can be
+of different data types, like integers, floats, strings, or even Python objects.
+For this section we will be importing python data structures from pandas_1_intro directory
+which we will be creating dataframes to operate on.
+We are dividing dataframes over different modules like creation, access, modification,
+operations etc.
+Please go through the individual modules.
